@@ -11,7 +11,7 @@ class ListNameComponent extends Component {
         this.refreshCourses = this.refreshCourses.bind(this)
 	this.updateNameClicked = this.updateNameClicked.bind(this)
 	this.deleteNameClicked = this.deleteNameClicked.bind(this)
-	//this.addNameClicked = this.addNameClicked.bind(this)
+	this.addNameClicked = this.addNameClicked.bind(this)
     }
 
     addNameClicked() {
