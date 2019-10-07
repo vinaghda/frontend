@@ -18,7 +18,7 @@ class NameComponent extends Component {
 
     onSubmit(values) {
         let karyawan = {
-            id: this.state.id,
+            //id: this.state.id,
             firstName: values.firstName,
             lastName: values.lastName
         }
